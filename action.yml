@@ -1,4 +1,4 @@
-name: Delete github package versions
+name: @WPMedia/Delete github package versions
 
 description: Deletes old package versions
 
@@ -79,4 +79,4 @@ runs:
 
 branding:
   icon: 'delete'
-  color: 'orange'
+  color: 'blue'
