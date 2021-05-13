@@ -3,10 +3,13 @@
   "version": "0.4.9",
   "description": "Github Action for deleting old packages",
   "main": "dist/index.js",
-  "repository": "https://github.com/SmartsquareGmbH/delete-old-packages",
+  "repository": "https://github.com/WPMedia/delete-github-package-versions",
   "author": "Ruben Gees",
   "license": "MIT",
   "private": true,
+  "contributors": [
+    "Jack Howard"
+  ],
   "scripts": {
     "start": "node src/index.js",
     "build": "ncc build src/index.js --license LICENSE.txt --target es2015 --minify",
